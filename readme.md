@@ -13,3 +13,9 @@
 **Connect to it: (You need VNC Viewer)**
 
 `vncviewer --FullColor --SendClipboard --AcceptClipboard localhost`
+
+
+Fluxbox is a very light graphical desktop manager, once connected with VNCViewer, right click anywhere and from application menu open a terminal.
+
+run chromium-browser in terminal and you'll get chromium up & running!
+
