@@ -13,8 +13,6 @@ RUN useradd apps
 RUN mkdir -p /home/apps && chown apps:apps /home/apps
 
 # Install chromium dependencies
-RUN apt-get install -y 
-
 RUN wget http://ftp.uk.debian.org/debian/pool/main/x/xdg-utils/xdg-utils_1.1.1-1+deb9u1_all.deb
 RUN wget https://snapshot.debian.org/archive/debian/20101112T145114Z/pool/main/libv/libvpx/libvpx0_0.9.1-2_amd64.deb
 RUN wget https://launchpad.net/ubuntu/+archive/primary/+files/libgcrypt11_1.5.3-2ubuntu4.2_amd64.deb
@@ -42,7 +40,6 @@ RUN dpkg -i libgconf2-4_3.2.6-3_amd64.deb
 RUN dpkg -i xdg-utils_1.1.1-1+deb9u1_all.deb
 
 # Install chromium 
-
 RUN wget http://old-releases.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/chromium-browser_14.0.835.202~r103287-0ubuntu1_amd64.deb
 RUN wget http://old-releases.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/chromium-codecs-ffmpeg_14.0.835.202~r103287-0ubuntu1_amd64.deb
 RUN wget http://old-releases.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-extra_14.0.835.202~r103287-0ubuntu1_amd64.deb
