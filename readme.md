@@ -25,7 +25,7 @@
 `vncviewer --FullColor --SendClipboard --AcceptClipboard localhost`
 
 
-Fluxbox is a very light weight window manager, once connected with VNCViewer, right click anywhere on the screen and from application menu open a terminal.
+Fluxbox is a light weight window manager, once connected with VNCViewer, right click anywhere on the screen and from application menu open a terminal.
 
-run chromium-browser in terminal and you'll get chromium up & running!
+then run chromium-browser in the terminal and you'll have chromium up & running!
 
